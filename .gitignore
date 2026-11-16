@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Datasets (download separately, see data/README.md)
+data/*
+!data/README.md
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

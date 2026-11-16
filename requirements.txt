@@ -1,0 +1,7 @@
+torch>=2.0
+numpy>=1.24
+scikit-learn>=1.1
+# Stage-1 real LLM backend (optional; heuristic backend works without these):
+transformers>=4.40
+accelerate>=0.27
+bitsandbytes>=0.43   # 4-bit weight-only quantisation
